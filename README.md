@@ -1,5 +1,7 @@
 # **Multimodal Fusion Learning with Dual Attention for Medical Imaging**
 
+**Highlights-**
+
 ![image](https://github.com/user-attachments/assets/183e6cfa-c351-4fac-a2ee-5058c5a3a883)
 Figure 1. Detailed architecture of DRIFA-Net. Key components include: (A) the target-specific multimodal fusion learning (TMFL)
 phase, followed by (B) an uncertainty quantification (UQ) phase. TMFL phase comprises a robust residual attention (RRA) block, shown
@@ -34,7 +36,7 @@ Figure 5. T-SNE visualization of different models applied to the dermoscopy imag
 
 
 
-**Highlights-**
+
 
 
 
