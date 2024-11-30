@@ -12,4 +12,3 @@ whereas multimodal information fusion attention module learns enhanced multimoda
 and enhancing overall performance. Furthermore, to estimate the uncertainty of DRIFA-Net predictions, we have
 employed an ensemble Monte Carlo dropout strategy. Extensive experiments on five publicly available datasets with
 diverse modalities demonstrate that our approach consistently outperforms existing state-of-the-art methods. 
-Ourcode will be made publicly available upon paper acceptance.
