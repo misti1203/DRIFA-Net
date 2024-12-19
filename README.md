@@ -1,6 +1,34 @@
-# **Multimodal Fusion Learning with Dual Attention for Medical Imaging**
+# Welcome to My GitHub Profile 👋  
 
-**Highlights-**
+## Multimodal Fusion Learning for Disease Classification  
+
+Multimodal fusion learning has shown significant promise in classifying various diseases such as skin cancer and brain tumors. However, existing methods face three key limitations:  
+
+1. **Lack of Generalizability**: Existing methods often fail to generalize across diagnosis tasks due to their focus on a specific disease.  
+2. **Limited Use of Diverse Modalities**: They do not fully leverage multiple health records from diverse modalities to learn robust complementary information.  
+3. **Single Attention Mechanism**: Relying on a single attention mechanism misses the benefits of combining multiple attention strategies within and across various modalities.  
+
+### Our Proposed Approach: **DRIFA**  
+
+To address these challenges, we propose:  
+**A Dual Robust Information Fusion Attention Mechanism** (**DRIFA**)  
+
+### Key Features of DRIFA:  
+
+- **Multi-Branch Fusion Attention Module**: Enhances representations for each modality, such as dermoscopy, pap smear, MRI, and CT scans.  
+- **Multimodal Information Fusion Attention Module**: Learns refined multimodal shared representations, improving the network's generalization across multiple tasks.  
+
+DRIFA can be integrated with any deep neural network, forming a multimodal fusion learning framework known as **DRIFA-Net**.  
+
+### Performance Highlights:  
+
+- **Uncertainty Estimation**: Using an ensemble Monte Carlo dropout strategy, DRIFA-Net provides reliable predictions with uncertainty estimates.  
+- **State-of-the-Art Results**: Extensive experiments on five publicly available datasets demonstrate consistent performance improvements over existing methods.  
+
+### Technologies and Applications:  
+- **Applications**: Disease classification (e.g., skin cancer, brain tumors).  
+- **Modalities**: Dermoscopy, pap smear, MRI, and CT scans.  
+
 
 ![image](https://github.com/user-attachments/assets/183e6cfa-c351-4fac-a2ee-5058c5a3a883)
 Figure 1. Detailed architecture of DRIFA-Net. Key components include: (A) the target-specific multimodal fusion learning (TMFL)
@@ -33,6 +61,17 @@ Gloria, (c) and (i) for MTF with MA, (d) and (j) for CAF, (e) and (k) for MTTU-N
 Figure 5. T-SNE visualization of different models applied to the dermoscopy images of the D1 dataset, where (a) represents the T-SNE visualization of Gloria, (b) of MTTU-Net, and (c) of our proposed DRIFA-Net.
 
 
+### Citation:  
+
+If you find this work useful, please cite:  
+```bibtex
+@inproceedings{dhar2025multimodal,
+  title={Multimodal Fusion Learning with Dual Attention for Medical Imaging},
+  author={Dhar, Joy and Zaidi, N. and Haghighat, M. and Goyal, P. and Roy, S. and Alavi, A. and Kumar, V.},
+  booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year={2025},
+  url={https://arxiv.org/abs/2412.01248}
+}
 
 
 
