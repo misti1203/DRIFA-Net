@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile 👋  
 
-## Multimodal Fusion Learning for Disease Classification  
+## Multimodal Fusion Learning with Dual Attention for Medical Imaging
 
 Multimodal fusion learning has shown significant promise in classifying various diseases such as skin cancer and brain tumors. However, existing methods face three key limitations:  
 
